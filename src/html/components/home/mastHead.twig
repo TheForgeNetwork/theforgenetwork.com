@@ -1,0 +1,11 @@
+<div class='c-mastHead'>
+    <div class='c-mastHead__identity'>
+        {% include 'components/home/identity.twig' %}
+    </div>
+    <div class='c-mastHead__actions'>
+        <p class='c-mastHead__whitepaper'>
+            {% include 'components/button.twig' with { url: '/wp-content/themes/forgenet/assets/whitepapers/en-forgenet-whitepaper.pdf', title: 'Whitepaper', color: 'white' } %}
+        </p>
+        {% include 'components/joinConversation.twig' %}
+    </div>
+</div>
